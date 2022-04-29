@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./Montserrat-Regular.ttf);
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+body {
+  margin: 5%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(27, 75, 75);
+}
+
+header p {
+  text-align: center;
+  font-style: italic;
+  color: rgb(27, 75, 75);
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+.me {
+  text-align: center;
+  color: rgb(27, 75, 75);
+  margin-top: 5%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  width: 25%;
+  padding: 5%;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(27, 75, 75);
+  padding: 1%;
+}
+
+footer a:hover {
+  color: rgb(45, 146, 146);
+}
