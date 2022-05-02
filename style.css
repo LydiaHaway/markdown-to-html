@@ -87,3 +87,13 @@ footer a {
 footer a:hover {
   color: rgb(45, 146, 146);
 }
+
+@media screen and (max-width: 1020px) {
+  .info {
+    display: block;
+    justify-content: center;
+  }
+  .partThree {
+    width: 70%;
+  }
+}
